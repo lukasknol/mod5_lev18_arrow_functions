@@ -1,20 +1,22 @@
-// A. Question: zet de functie om naar een arrow functie
-const ikRockArrowFunctions = function () {
+// A. 
+const ikRockArrowFunctions = () => {
     console.log("Joe, ik rock de arrow functions!");
-  };
-  
-  ikRockArrowFunctions()
-
-  // A. Answer: zet de functie om naar een arrow functie
-const ikRockArrowFunctions = () => console.log ("Joe, ik rock de arrow functions!")
+};
 
 
-// B. Question
-const fivePlusSeven = function () {
-    return 5 + 7
-  };
-  
-  fivePlusSeven();
+// B. 
+const fivePlusSeven = () => 5 + 7
 
-// B. Answer
-const fivePlusSeven = function () => return 5 + 7
+fivePlusSeven();
+
+
+// C.
+const myFunction = (a, b) => a + b;
+
+
+// D.
+const addFive = a => a + 5;
+
+
+// E.
+const createObject = () => ({ value: "hoi" });
